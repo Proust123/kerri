@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kerry</title>
+
+    <style>
+
+
+        *{
+            margin : 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .section1{
+            height : 100vh;
+            width : 100%;
+            border : 1px solid
+        }
+
+        #s1-desc1 {
+            height: 70px;
+            /* background-color: red; */
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            padding: 1px;
+            margin-top: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        #s1-desc2 {
+            color: rgb(199, 199, 199);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #btn1 {
+            height: 60px;
+            width: 200px;
+            background-color: rgba(255, 255, 255, 0);
+            border: 2px solid white;
+            border-radius: 30px;
+            font-size: larger;
+            cursor: pointer;
+            color: white;
+            margin-left: 570px;
+            margin-top: 40px;
+            transition: 0.3s;
+        }
+        #btn1:hover{
+            background-color: white;
+            color: black;
+        }
+
+        #s1-desc1 h1{
+            position: absolute;
+            text-align: center;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+        }
+
+        #h1{
+            animation: h1 15s linear infinite;
+        }
+
+        @keyframes h1 {
+            0%{
+                opacity: 1;
+            }
+            33%{
+                opacity: 1;
+            }
+            34%{
+                opacity: 0;
+            }
+            66%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+
+        #h2{
+            animation: h2 15s linear infinite;
+        }
+
+        @keyframes h2 {
+            0%{
+                opacity: 0;
+            }
+            33%{
+                opacity: 0;
+            }
+            34%{
+                opacity: 1;
+            }
+            66%{
+                opacity: 1;
+            }
+            67%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+
+
+        #h3{
+            animation: h3 15s linear infinite;
+        }
+
+        @keyframes h3 {
+            0%{
+                opacity: 0;
+            }
+            33%{
+                opacity: 0;
+            }
+            34%{
+                opacity: 0;
+            }
+            66%{
+                opacity: 0;
+            }
+            67%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+        #s1-desc1 h1 span{
+            animation: opacityanim 5s linear infinite;
+        }
+
+        @keyframes opacityanim {
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "section1">
+        <div id="s1-desc1">
+            <h1 id="h1">I'M <span>Kerri Deo.</span></h1>
+            <h1 id="h2">I'M <span>A Graphic Designer.</span></h1>
+            <h1 id="h3">I'M <span>A Photographer.</span></h1>
+        </div>
+    </div>
+</body>
+</html>

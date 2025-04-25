@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .Main{
+            height: 500px;
+            width: 800px;
+            border: 1px solid;
+            margin: auto;
+            overflow: hidden;
+        }
+        .Slider{
+            width: 2400px;
+            height: 100%;
+            background-color: green;
+            animation-name: slider;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+        .slide{
+            height: 100%;
+            width: 798px;
+            display: inline-block;
+        }
+        .s1{
+            background-color: red;
+        }
+        .s2{
+            background-color: yellow;
+        }
+        .s3{
+            background-color: blue;
+        }
+
+        @keyframes slider{
+            0%{
+                margin-left: 0;
+            }
+            30%{
+                margin-left: 0;
+            }
+            31%{
+                margin-left: -798px;
+            }
+            60%{
+                margin-left: -798px;
+            }
+            61%{
+                margin-left: -1596px;
+            }
+            100%{
+                margin-left: -1596px;
+            }
+        }
+
+
+
+    </style>
+
+
+
+</head>
+
+
+<body>
+    
+
+<div class="Main">
+    <div class="Slider">
+        <div class="slide s1"></div><div class="slide s2"></div> <div class="slide s3"></div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

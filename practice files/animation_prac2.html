@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+
+    <style>
+        .section{
+            height : 100vh;
+            width : 100%;
+            border: 1px solid;
+            position: relative;
+        }
+        .box{
+            height: 500px;
+            width : 500px;
+            border : 1px solid;
+            position: absolute;
+        }
+        .b1{
+            background-image: url(./images/blog-1.jpg);
+            background-position: center;
+            background-size: cover;
+            animation-name: pic1;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pic1{
+            0%{
+                opacity : 1;
+            }
+            16%{
+                opacity : 0;
+            }
+            32%{
+                opacity : 0;
+            }
+            48%{
+                opacity: 0;
+            }
+            64%{
+                opacity :0;
+            }
+            80%{
+                opacity:0;
+            }
+            100%{
+                opacity : 1;
+            }
+        }
+        .b2{
+            background-image: url(./images/blog-2.jpg);
+            background-position: center;
+            background-size: cover;
+            animation-name: pic2;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pic2{
+             0%{
+                opacity : 0;
+            }
+            16%{
+                opacity : 1;
+            }
+            32%{
+                opacity : 0;
+            }
+            48%{
+                opacity: 0;
+            }
+            64%{
+                opacity :0;
+            }
+            80%{
+                opacity:0;
+            }
+            100%{
+                opacity : 0;
+            }
+        }
+
+        .b3{
+            background-image: url(./images/blog-3.jpg);
+            background-position: center;
+            background-size: cover;
+            animation-name: pic3;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pic3{
+             0%{
+                opacity : 0;
+            }
+            16%{
+                opacity : 0;
+            }
+            32%{
+                opacity : 1;
+            }
+            48%{
+                opacity: 0;
+            }
+            64%{
+                opacity :0;
+            }
+            80%{
+                opacity:0;
+            }
+            100%{
+                opacity : 0;
+            }
+        }
+        .b4{
+            background-image: url(./images/header-bg.jpg);
+            background-position: center;
+            background-size: cover;
+            animation-name: pic4;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pic4{
+             0%{
+                opacity : 0;
+            }
+            16%{
+                opacity : 0;
+            }
+            32%{
+                opacity : 0;
+            }
+            48%{
+                opacity: 1;
+            }
+            64%{
+                opacity :0;
+            }
+            80%{
+                opacity:0;
+            }
+            100%{
+                opacity : 0;
+            }
+        }
+        .b5{
+            background-image: url(./images/header-bg2.jpg);
+            background-position: center;
+            background-size: cover;
+            animation-name: pic5;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pic5{
+            0%{
+                opacity : 0;
+            }
+            16%{
+                opacity : 0;
+            }
+            32%{
+                opacity : 0;
+            }
+            48%{
+                opacity: 0;
+            }
+            64%{
+                opacity :1;
+            }
+            80%{
+                opacity:0;
+            }
+            100%{
+                opacity : 0;
+            }
+        }
+        .b6{
+            background-image: url(./images/header-bg3.jpg);
+            background-position: center;
+            background-size: cover;
+            animation-name: pic6;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes pic6{  
+             0%{
+                opacity : 0;
+            }
+            16%{
+                opacity : 0;
+            }
+            32%{
+                opacity : 0;
+            }
+            48%{
+                opacity: 0;
+            }
+            64%{
+                opacity :0;
+            }
+            80%{
+                opacity:1;
+            }
+            100%{
+                opacity : 0;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div class = "section">
+        <div class = "box b1"></div>
+        <div class = "box b2"></div>
+        <div class = "box b3"></div>
+        <div class = "box b4"></div>
+        <div class = "box b5"></div>
+        <div class = "box b6"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+
+
+    <style>
+        .Block{
+            height: 500px;
+            width: 700px;
+            /* border: 1px solid; */
+            position: relative;
+        }
+        .Box{
+            height: 200px;
+            width: 200px;
+            /* border: 1px solid; */
+            position: absolute;
+        }
+        .b1{
+            background-image: url(https://wallpapercave.com/wp/DunuQd7.jpg);
+            animation-name: slidy;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes slidy {
+            0%{
+                opacity: 1;
+            }
+            33%{
+                opacity: 0;
+            }
+            66%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+        .b2{
+            background-image: url(https://img.freepik.com/free-vector/abstract-background-theme_23-2148474314.jpg?w=2000);
+            animation-name: slidy1;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes slidy1 {
+            0%{
+                opacity: 0;
+            }
+            33%{
+                opacity: 1;
+            }
+            66%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+
+        .b3{
+            background-image: url(https://img.freepik.com/free-vector/realistic-autumn-wallpaper-theme_23-2148602589.jpg?w=2000);
+            animation-name: slidy2;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes slidy2 {
+            0%{
+                opacity: 0;
+            }
+            33%{
+                opacity: 0;
+            }
+            66%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+
+
+        .b4{
+            background-color: rgba(0, 0, 0, 0.527);
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="Block">
+        <div class="Box b1"></div>
+        <div class="Box b2"></div>
+        <div class="Box b3"></div>
+        <div class="Box b4"></div>
+        
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .Box{
+            height: 200px;
+            width: 200px;
+            animation-name: squares;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            background-position: center;
+            background-size: cover;
+        }
+
+
+        @keyframes squares {
+            0%{
+                /* margin-left: 0; */
+                /* margin-top: 0; */
+                background-image: url(https://wallpapercave.com/wp/DunuQd7.jpg);
+            }
+            25%{
+                /* margin-left: 400px; */
+                /* margin-top: 0;  */
+                background-image: url(https://img.freepik.com/free-vector/abstract-background-theme_23-2148474314.jpg?w=2000);
+            }
+            50%{
+                /* margin-left: 400px; */
+                /* margin-top: 300px; */
+                background-image: url(https://img.freepik.com/free-vector/realistic-autumn-wallpaper-theme_23-2148602589.jpg?w=2000);
+            }
+            75%{
+                /* margin-top: 300px; */
+                /* margin-left: 0;  */
+                background-image: url(https://wallpapers.com/images/hd/mystical-butterfly-bookish-theme-d36fdpn8dde6m6ua.jpg);
+            }
+
+            100%{
+                /* margin-left: 0; */
+                /* margin-top: 0; */
+                background-image: url(https://wallpapercave.com/wp/DunuQd7.jpg);
+            }
+
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+
+    <div class="Box"></div>
+
+
+</body>
+</html>
